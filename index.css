@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  background: rgb(9, 35, 175);
+  background: linear-gradient(
+    180deg,
+    rgb(255, 114, 182) 0%,
+    rgb(238, 207, 207) 100%
+  );
+  color: #fff;
+}
+
+button {
+  background-color: pink;
+  color:black;
+  padding: 0 45px;
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(255, 83, 169);
+}
